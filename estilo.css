@@ -9,11 +9,11 @@ html {
 }
 
 body {
-    background: gray;
+    background: whitesmoke;
 }
 
 img {
-    border-radius: 25px;
+    border-radius: 30px;
 }
 
 #container {
@@ -22,7 +22,7 @@ img {
 }
 
 #container > header {
-    background: gray;
+    background: whitesmoke;
     text-align: center;
     padding-top: 4rem;
 }
@@ -34,7 +34,7 @@ main {
 }
 
 footer {
-    background: whitesmoke;
+    background: grey;
     height: 3rem;
     font-size: 15px;
 }
@@ -58,7 +58,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    display:list-item;
+    display:flex;
     color: #ecedea;
     padding: 20px;
 }
@@ -66,24 +66,31 @@ nav ul li a {
 /* MAIN */
 main > header {
     color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial', sans-serif;
-    font-weight: 800;
+    font-family: sans-serif;
+    font-weight: 600;
 }   
 
-.calçado { margin-bottom: 20px; cursor: pointer; }
+.calçado { margin-bottom: 10px; }
 .calçado p {
     background-color: black;
     color: whitesmoke;
-    padding: 5px 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px 4px;
+    margin: 4px 8px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .calçado p:hover {
-    transform: rotate(-2deg);    
+    transform: rotate(-4deg);    
 }
 
 #calçados {
+    padding: 2px 4px;
+    margin: 4px 8px;
     display:list-item;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+    display: flex;
 }
